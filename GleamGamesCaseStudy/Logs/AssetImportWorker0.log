@@ -7212,3 +7212,613 @@ AssetImportParameters requested are different than current active one (requested
   custom:scripting/monoscript/fileName/Buffer.cs: 289f5930a1bbfbf6d8aac98cd21fd44c -> 
   custom:scripting/monoscript/fileName/TestFactoryFromSubContainerInstaller0.cs: fa3fa9899b47c46e2b09722bda5dd13d -> 
   custom:scripting/monoscript/fileName/ScopeConcreteIdArgConditionCopyNonLazyBinder.cs: 6cb724bcc468bc0c904da00bab2f846b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 379.691702 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(92d3667126423438c9011f84d16da758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(92d3667126423438c9011f84d16da758) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '01198c0d14344146e9fb611652604d41') in 0.006917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 458.731439 seconds.
+  path: Assets/Game/Meshes/bottle-of-champagne
+  artifactKey: Guid(0262868b48831429889a8d9d1e771d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/bottle-of-champagne using Guid(0262868b48831429889a8d9d1e771d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9c3f98675b39882b9df4f8c21f28700a') in 0.002221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.069833 seconds.
+  path: Assets/Game/Meshes/bottle-of-champagne/source
+  artifactKey: Guid(72a88cc3a03414ea49eeb30f7bda4899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/bottle-of-champagne/source using Guid(72a88cc3a03414ea49eeb30f7bda4899) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '03d77d495df0db3967af9067dcef3460') in 0.000958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.090888 seconds.
+  path: Assets/Game/Meshes/bottle-of-champagne/source/A_BottleChampagne.fbx
+  artifactKey: Guid(90e1b688be02e45939c9d53b63b088c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/bottle-of-champagne/source/A_BottleChampagne.fbx using Guid(90e1b688be02e45939c9d53b63b088c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '05401c2806409237e6a1a3d3a1f609b0') in 0.707059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 15.393511 seconds.
+  path: Assets/Game/Meshes/soda-bottle-orange-liquid/source
+  artifactKey: Guid(67aa6e17021524f4897fb060786a9fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/soda-bottle-orange-liquid/source using Guid(67aa6e17021524f4897fb060786a9fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '81536ec9044badc22418bc71ebe5a087') in 0.001337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.066876 seconds.
+  path: Assets/Game/Meshes/soda-bottle-orange-liquid/source/BlenderBottle_001.fbx
+  artifactKey: Guid(7f41cfe7a20104446b5c16f901923513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/soda-bottle-orange-liquid/source/BlenderBottle_001.fbx using Guid(7f41cfe7a20104446b5c16f901923513) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '876410e5b25a9aa21aa3b3fdc57d69c8') in 0.064034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 42.284126 seconds.
+  path: Assets/Game/Meshes/A_BottleChampagne.fbx
+  artifactKey: Guid(90e1b688be02e45939c9d53b63b088c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/A_BottleChampagne.fbx using Guid(90e1b688be02e45939c9d53b63b088c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '407e20eecb1bca91cdab1ed1e429e076') in 0.018572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 25.417073 seconds.
+  path: Assets/Game/Meshes/source
+  artifactKey: Guid(7b5a4cc7683904ffbbd8b4637e245456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/source using Guid(7b5a4cc7683904ffbbd8b4637e245456) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b3cba36575b0ee70c4d507304207d5fd') in 0.000901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.041720 seconds.
+  path: Assets/Game/Meshes/source/spray bottle.fbx
+  artifactKey: Guid(1ee289163acda4e52a3c571228dd1f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/source/spray bottle.fbx using Guid(1ee289163acda4e52a3c571228dd1f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3107a08dafc6468409e751265ad8b211') in 0.082231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 5.386352 seconds.
+  path: Assets/Game/Meshes/stanley
+  artifactKey: Guid(c451dbfb540d845e9a18d09ca87ce5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/stanley using Guid(c451dbfb540d845e9a18d09ca87ce5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e9cda7c92c96f82fd8dd84755b3664d1') in 0.000523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.101169 seconds.
+  path: Assets/Game/Meshes/stanley/source
+  artifactKey: Guid(a091fa267a4f34cfdb866f7feac63114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/stanley/source using Guid(a091fa267a4f34cfdb866f7feac63114) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd94dd5c0d6cc2d93e46552cb44cefb79') in 0.000690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.043640 seconds.
+  path: Assets/Game/Meshes/stanley/source/Stanley.fbx
+  artifactKey: Guid(4d7a81bdcbb9b4f89a315c403b420bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/stanley/source/Stanley.fbx using Guid(4d7a81bdcbb9b4f89a315c403b420bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '69aae7bed06bc7d8b68c8d7ab5921f77') in 0.017178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 6.663272 seconds.
+  path: Assets/Game/Meshes/super-awesome-milk-carton
+  artifactKey: Guid(8c7edf621030442d1a2190ed650b7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/super-awesome-milk-carton using Guid(8c7edf621030442d1a2190ed650b7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0f6a4c9f0e9057dd6ae2c3cdd61f8c73') in 0.000525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.834977 seconds.
+  path: Assets/Game/Meshes/super-awesome-milk-carton/source
+  artifactKey: Guid(07e1cf7bf437d4218b06f980e44717f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/super-awesome-milk-carton/source using Guid(07e1cf7bf437d4218b06f980e44717f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b9243562bad459a8c17500acd191d764') in 0.000499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.029602 seconds.
+  path: Assets/Game/Meshes/super-awesome-milk-carton/source/6edd6a7953c34780a12fc8483da6ec6a.fbx
+  artifactKey: Guid(8b3e18a67342f40b88b440a242a29b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/super-awesome-milk-carton/source/6edd6a7953c34780a12fc8483da6ec6a.fbx using Guid(8b3e18a67342f40b88b440a242a29b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f5bc4be82c108f4b524d077ea34b5581') in 0.345238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 15.592725 seconds.
+  path: Assets/Game/Textures
+  artifactKey: Guid(295fafc7290d04dafa1a1feb4cacf3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Textures using Guid(295fafc7290d04dafa1a1feb4cacf3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4651f31b475b10e08acebf622cb935bb') in 0.000618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.281702 seconds.
+  path: Assets/Game/Meshes/soda-bottle-orange-liquid/textures/LabelBlenderOpaque.png
+  artifactKey: Guid(d5ff55763dcca4d639113c2f0309a9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/soda-bottle-orange-liquid/textures/LabelBlenderOpaque.png using Guid(d5ff55763dcca4d639113c2f0309a9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c24ffd31dd4d3077ddfabbcba4150e28') in 0.032833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 29.810493 seconds.
+  path: Assets/Game/Meshes/bottle-of-champagne/source/A_BottleChampagne.fbx
+  artifactKey: Guid(d21427c2d96c04031a0271db212d72d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/bottle-of-champagne/source/A_BottleChampagne.fbx using Guid(d21427c2d96c04031a0271db212d72d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1a85b653a464b4fc71e2d5337442f948') in 0.032882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 13.106772 seconds.
+  path: Assets/Game/Meshes/New Folder
+  artifactKey: Guid(d5c6b443fe9184898adaf2422fb7d39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/New Folder using Guid(d5c6b443fe9184898adaf2422fb7d39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fdce723998fcf6f916afb4a590b36673') in 0.001194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.760341 seconds.
+  path: Assets/Game/Meshes/Textures
+  artifactKey: Guid(d5c6b443fe9184898adaf2422fb7d39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/Textures using Guid(d5c6b443fe9184898adaf2422fb7d39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2976a14c6a6dcf62dcbf64e2ad0b9a69') in 0.000422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.144076 seconds.
+  path: Assets/Game/Meshes/6edd6a7953c34780a12fc8483da6ec6a.fbx
+  artifactKey: Guid(8b3e18a67342f40b88b440a242a29b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/6edd6a7953c34780a12fc8483da6ec6a.fbx using Guid(8b3e18a67342f40b88b440a242a29b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e00ddac4d8622319295a5c0f057eaf79') in 0.024793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Game/Meshes/BlenderBottle_001.fbx
+  artifactKey: Guid(7f41cfe7a20104446b5c16f901923513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/BlenderBottle_001.fbx using Guid(7f41cfe7a20104446b5c16f901923513) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b1627f3fe90d9378b274612e4b9af2f4') in 0.061583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 30.064923 seconds.
+  path: Assets/Game/Meshes/spray bottle.fbx
+  artifactKey: Guid(1ee289163acda4e52a3c571228dd1f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/spray bottle.fbx using Guid(1ee289163acda4e52a3c571228dd1f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ce7a7cfad452d7b50f5fa9bb9c9b2a19') in 0.100921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 4.076404 seconds.
+  path: Assets/Game/Materials/black.001.mat
+  artifactKey: Guid(5cd7e163ce93f443e87372f417d9cfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Materials/black.001.mat using Guid(5cd7e163ce93f443e87372f417d9cfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'dd697db190b0d2bbc5e8738077121675') in 0.012433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Game/Materials/plstic.mat
+  artifactKey: Guid(f8f077527112a402ca018e38cd08a475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Materials/plstic.mat using Guid(f8f077527112a402ca018e38cd08a475) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cf4d549c1b751ea64f665ee6c0d40ff8') in 0.008222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Game/Materials/plastic lid.mat
+  artifactKey: Guid(b9f1885978bd14fa8af2ae9b98622a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Materials/plastic lid.mat using Guid(b9f1885978bd14fa8af2ae9b98622a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a5fc4da4ae9c8aa048612ca780924e79') in 0.010418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Game/Materials/label.mat
+  artifactKey: Guid(e3830c16084a646c9822d50295ce7dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Materials/label.mat using Guid(e3830c16084a646c9822d50295ce7dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f2829197a9825a4a1b2b10199ddd3b08') in 0.007181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Game/Materials/spring.mat
+  artifactKey: Guid(d69c398fb5e4844799f8b28b48bdf458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Materials/spring.mat using Guid(d69c398fb5e4844799f8b28b48bdf458) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bc54c7236f802984ab2fbb1d3c086169') in 0.016526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Game/Materials/translucent plastick.mat
+  artifactKey: Guid(b62379475b76b413197dce35a387f871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Materials/translucent plastick.mat using Guid(b62379475b76b413197dce35a387f871) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '86c0e82f823e69f8e185e0bd22f1d4a4') in 0.012131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 73.161645 seconds.
+  path: Assets/Game/Meshes/Textures/stanley/textures
+  artifactKey: Guid(73ca16c5bd15a46f989278167542d571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/Textures/stanley/textures using Guid(73ca16c5bd15a46f989278167542d571) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1307799921dd8bab4e1c1f6fef995896') in 0.000656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.026390 seconds.
+  path: Assets/Game/Meshes/Textures/stanley/textures/StanleyCupTexture.png
+  artifactKey: Guid(aa027b19da9584fbeb8a56bf2de3069b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/Textures/stanley/textures/StanleyCupTexture.png using Guid(aa027b19da9584fbeb8a56bf2de3069b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '26972c3a94571899e14f13bb63d2790a') in 0.016235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 75.502836 seconds.
+  path: Assets/Game/Prefabs
+  artifactKey: Guid(265e00ec93d5c4129afe333b2d50361b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs using Guid(265e00ec93d5c4129afe333b2d50361b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '91364f4a3a1185e2f0a974fe54f74d87') in 0.001624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.807923 seconds.
+  path: Assets/Game/Meshes/6edd6a7953c34780a12fc8483da6ec6a.fbx
+  artifactKey: Guid(8b3e18a67342f40b88b440a242a29b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/6edd6a7953c34780a12fc8483da6ec6a.fbx using Guid(8b3e18a67342f40b88b440a242a29b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '53656b67bf73eba8cdad07a9fadd6721') in 0.037867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 90.007048 seconds.
+  path: Assets/Game/Prefabs/Stanley.prefab
+  artifactKey: Guid(d2ae71fdb628d446787413bd601c3151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs/Stanley.prefab using Guid(d2ae71fdb628d446787413bd601c3151) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f23b0ff6511c127eb6602031288790cd') in 0.011944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 1.501246 seconds.
+  path: Assets/Game/Prefabs/MilkBox.prefab
+  artifactKey: Guid(030e342453b864fe294abe448c9ced03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs/MilkBox.prefab using Guid(030e342453b864fe294abe448c9ced03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b84556a6ae431ab879e7f71cf1c9a042') in 0.008800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 48.339192 seconds.
+  path: Assets/Game/Meshes/A_BottleChampagne.fbx
+  artifactKey: Guid(d21427c2d96c04031a0271db212d72d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/A_BottleChampagne.fbx using Guid(d21427c2d96c04031a0271db212d72d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '49da5f84278b25f1c55bc511f6de6279') in 0.030401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 8.460825 seconds.
+  path: Assets/Game/Meshes/A_BottleChampagne.fbx
+  artifactKey: Guid(d21427c2d96c04031a0271db212d72d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/A_BottleChampagne.fbx using Guid(d21427c2d96c04031a0271db212d72d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd94a85e25e2c6472b0b85b1bbbc6c1b6') in 0.021542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 7.494925 seconds.
+  path: Assets/Game/Meshes/A_BottleChampagne.fbx
+  artifactKey: Guid(d21427c2d96c04031a0271db212d72d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/A_BottleChampagne.fbx using Guid(d21427c2d96c04031a0271db212d72d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cca30381a8e66ff0014bcd5e9f477aeb') in 0.020906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 7.320333 seconds.
+  path: Assets/Game/Meshes/A_BottleChampagne.fbx
+  artifactKey: Guid(d21427c2d96c04031a0271db212d72d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/A_BottleChampagne.fbx using Guid(d21427c2d96c04031a0271db212d72d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4b51c3c07cc11b4788d2aa1c297fd815') in 0.022500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 5.771409 seconds.
+  path: Assets/Game/Prefabs/Champagne.prefab
+  artifactKey: Guid(aaa08c2a9adcc49a68720965aefa1c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs/Champagne.prefab using Guid(aaa08c2a9adcc49a68720965aefa1c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '799a6fc5c08e4c4cee0ac4974de4119c') in 0.012382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 54.262600 seconds.
+  path: Assets/Game/Meshes/BlenderBottle_001.fbx
+  artifactKey: Guid(7f41cfe7a20104446b5c16f901923513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/BlenderBottle_001.fbx using Guid(7f41cfe7a20104446b5c16f901923513) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2cfc205814f0ee77d75b9e3104a59b82') in 0.054579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 6.889325 seconds.
+  path: Assets/Game/Meshes/BlenderBottle_001.fbx
+  artifactKey: Guid(7f41cfe7a20104446b5c16f901923513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/BlenderBottle_001.fbx using Guid(7f41cfe7a20104446b5c16f901923513) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2746877f7cf4e8dc7bd51ccb6eaa3f58') in 0.055436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 11.365763 seconds.
+  path: Assets/Game/Meshes/BlenderBottle_001.fbx
+  artifactKey: Guid(7f41cfe7a20104446b5c16f901923513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/BlenderBottle_001.fbx using Guid(7f41cfe7a20104446b5c16f901923513) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '72a7aa24267a2871706d0d68895b8512') in 0.062571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 6.528207 seconds.
+  path: Assets/Game/Meshes/BlenderBottle_001.fbx
+  artifactKey: Guid(7f41cfe7a20104446b5c16f901923513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/BlenderBottle_001.fbx using Guid(7f41cfe7a20104446b5c16f901923513) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ff54a89d51d239361b311e6302ff925d') in 0.054022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 7.611973 seconds.
+  path: Assets/Game/Meshes/BlenderBottle_001.fbx
+  artifactKey: Guid(7f41cfe7a20104446b5c16f901923513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/BlenderBottle_001.fbx using Guid(7f41cfe7a20104446b5c16f901923513) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0a6e56b75d9ae92ba8a740e8eec9320c') in 0.051954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 11.942450 seconds.
+  path: Assets/Game/Meshes/BlenderBottle_001.fbx
+  artifactKey: Guid(7f41cfe7a20104446b5c16f901923513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Meshes/BlenderBottle_001.fbx using Guid(7f41cfe7a20104446b5c16f901923513) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6037714d3e95c226da68c87e10c3e657') in 0.056518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 8.743747 seconds.
+  path: Assets/Game/Prefabs/SodaBottle.prefab
+  artifactKey: Guid(f4ddf7b91d2e94f4aad776c73ec7eb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs/SodaBottle.prefab using Guid(f4ddf7b91d2e94f4aad776c73ec7eb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8743bf50a6806ed2fe15bf76466e9bd3') in 0.008139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
