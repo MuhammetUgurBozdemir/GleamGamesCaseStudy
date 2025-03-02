@@ -385,6 +385,7 @@
 "Assets/Epic Toon FX/Scripts/ETFXLightFade.cs"
 "Assets/Epic Toon FX/Scripts/ETFXPitchRandomizer.cs"
 "Assets/Epic Toon FX/Scripts/ETFXRotation.cs"
+"Assets/Game/Scripts/Controllers/DragAndDropController.cs"
 "Assets/Game/Scripts/Controllers/LevelController.cs"
 "Assets/Game/Scripts/GridView/GridView.cs"
 "Assets/Game/Scripts/Installers/GlobalSettingsInstaller.cs"

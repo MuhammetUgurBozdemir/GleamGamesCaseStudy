@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1776888908196081403}
   - component: {fileID: 3994041710075382647}
+  - component: {fileID: 3380452726376041860}
   m_Layer: 0
   m_Name: MilkBox
-  m_TagString: Untagged
+  m_TagString: ItemView
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45,6 +46,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2fc360cda3de47c3a59d004347f6ba8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemIndex: 0
+--- !u!65 &3380452726376041860
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4815932602103615148}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.37317288, y: 0.8029973, z: 1}
+  m_Center: {x: 0.0029848814, y: 0.36117187, z: 0}
 --- !u!1001 &6021879495899219595
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59,7 +82,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8b3e18a67342f40b88b440a242a29b19, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.018
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8b3e18a67342f40b88b440a242a29b19, type: 3}
       propertyPath: m_LocalPosition.z

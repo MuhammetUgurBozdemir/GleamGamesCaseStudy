@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 5378496341676436812}
   - component: {fileID: 2381907652406263151}
+  - component: {fileID: 3257835914253306128}
   m_Layer: 0
   m_Name: Champagne
-  m_TagString: Untagged
+  m_TagString: ItemView
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45,6 +46,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2fc360cda3de47c3a59d004347f6ba8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemIndex: 0
+--- !u!65 &3257835914253306128
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6008593740704774293}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.25287735, y: 0.95396876, z: 1}
+  m_Center: {x: 0.0017704368, y: 0.42313337, z: 0}
 --- !u!1001 &7511002074657016591
 PrefabInstance:
   m_ObjectHideFlags: 0

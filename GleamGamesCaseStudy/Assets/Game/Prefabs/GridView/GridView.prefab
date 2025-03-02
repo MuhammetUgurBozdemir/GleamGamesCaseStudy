@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 958739651637767931}
   - component: {fileID: 6818362523930559061}
+  - component: {fileID: 8670536879852989874}
   m_Layer: 0
   m_Name: GridView
-  m_TagString: Untagged
+  m_TagString: GridView
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59,6 +60,27 @@ MonoBehaviour:
       RightSlot:
         Slot: {fileID: 2865565601084346146}
         ItemView: {fileID: 0}
+--- !u!65 &8670536879852989874
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733917778476548930}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.8920082, y: 1.329655, z: 1}
+  m_Center: {x: 0.019391477, y: -0.49448282, z: 0}
 --- !u!1 &1190731151614550208
 GameObject:
   m_ObjectHideFlags: 0

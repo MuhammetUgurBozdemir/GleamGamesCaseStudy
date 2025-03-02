@@ -47,6 +47,21 @@ public class GridView : MonoBehaviour
         }
     }
     
+    public bool IsGridEmpty()
+    {
+        foreach (var listData in slotListData)
+        {
+            if (listData.SlotDataList.LeftSlot.ItemView != null ||
+                listData.SlotDataList.MiddleSlot.ItemView != null ||
+                listData.SlotDataList.RightSlot.ItemView != null)
+            {
+                return false;
+            }
+        }
+
+        return true;
+    }
+    
     private int GetRowsItemCount()
     {
         int count = 0;
