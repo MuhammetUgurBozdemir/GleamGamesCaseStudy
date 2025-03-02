@@ -389,6 +389,7 @@
 "Assets/Game/Scripts/GridView/GridView.cs"
 "Assets/Game/Scripts/Installers/GlobalSettingsInstaller.cs"
 "Assets/Game/Scripts/Installers/GoodSortGameInstaller.cs"
+"Assets/Game/Scripts/ItemView/ItemView.cs"
 "Assets/Game/Scripts/LevelView/LevelView.cs"
 "Assets/Game/Scripts/Settings/LevelSettings.cs"
 -langversion:9.0

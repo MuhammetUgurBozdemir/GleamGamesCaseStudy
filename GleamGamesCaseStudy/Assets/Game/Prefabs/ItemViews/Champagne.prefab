@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5378496341676436812}
+  - component: {fileID: 2381907652406263151}
   m_Layer: 0
   m_Name: Champagne
   m_TagString: Untagged
@@ -25,13 +26,25 @@ Transform:
   m_GameObject: {fileID: 6008593740704774293}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.012028001, y: -0.04298733, z: -0.011105392}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8049843395018501348}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2381907652406263151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6008593740704774293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2fc360cda3de47c3a59d004347f6ba8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7511002074657016591
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54,15 +67,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d21427c2d96c04031a0271db212d72d8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.012028001
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d21427c2d96c04031a0271db212d72d8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.04298733
+      value: -0.04
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d21427c2d96c04031a0271db212d72d8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.011105392
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d21427c2d96c04031a0271db212d72d8, type: 3}
       propertyPath: m_LocalRotation.w
