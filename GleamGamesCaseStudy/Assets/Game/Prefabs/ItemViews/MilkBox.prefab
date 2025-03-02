@@ -46,6 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2fc360cda3de47c3a59d004347f6ba8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  meshRenderer: {fileID: 4923444701562575375}
   itemIndex: 0
 --- !u!65 &3380452726376041860
 BoxCollider:
@@ -125,6 +126,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3e18a67342f40b88b440a242a29b19, type: 3}
+--- !u!23 &4923444701562575375 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 8b3e18a67342f40b88b440a242a29b19, type: 3}
+  m_PrefabInstance: {fileID: 6021879495899219595}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6059797818392273248 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8b3e18a67342f40b88b440a242a29b19, type: 3}

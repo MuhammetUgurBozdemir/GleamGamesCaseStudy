@@ -60,6 +60,26 @@ MonoBehaviour:
       RightSlot:
         Slot: {fileID: 2865565601084346146}
         ItemView: {fileID: 0}
+  - SlotDataList:
+      LeftSlot:
+        Slot: {fileID: 620975930935708879}
+        ItemView: {fileID: 0}
+      MiddleSlot:
+        Slot: {fileID: 4605643241615548646}
+        ItemView: {fileID: 0}
+      RightSlot:
+        Slot: {fileID: 826521814406701039}
+        ItemView: {fileID: 0}
+  - SlotDataList:
+      LeftSlot:
+        Slot: {fileID: 3658987192332233215}
+        ItemView: {fileID: 0}
+      MiddleSlot:
+        Slot: {fileID: 6416748878579658900}
+        ItemView: {fileID: 0}
+      RightSlot:
+        Slot: {fileID: 7049053810918210921}
+        ItemView: {fileID: 0}
 --- !u!65 &8670536879852989874
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -25,12 +25,14 @@ public class GridView : MonoBehaviour
     {
         foreach (var listData in slotListData)
         {
+            bool isDark = slotListData.IndexOf(listData) == slotListData.Count-1;
+            
             if (listData.SlotDataList.LeftSlot.ItemView != null)
             {
                 var obj = container.InstantiatePrefabForComponent<ItemView>(listData.SlotDataList.LeftSlot.ItemView);
                 obj.transform.SetParent(listData.SlotDataList.LeftSlot.Slot);
                 listData.SlotDataList.LeftSlot.ItemView = obj;
-                obj.Init();
+                obj.Init(isDark);
             }
 
             if (listData.SlotDataList.MiddleSlot.ItemView != null)
@@ -38,7 +40,7 @@ public class GridView : MonoBehaviour
                 var obj = container.InstantiatePrefabForComponent<ItemView>(listData.SlotDataList.MiddleSlot.ItemView);
                 obj.transform.SetParent(listData.SlotDataList.MiddleSlot.Slot);
                 listData.SlotDataList.MiddleSlot.ItemView = obj;
-                obj.Init();
+                obj.Init(isDark);
             }
 
             if (listData.SlotDataList.RightSlot.ItemView != null)
@@ -46,7 +48,7 @@ public class GridView : MonoBehaviour
                 var obj = container.InstantiatePrefabForComponent<ItemView>(listData.SlotDataList.RightSlot.ItemView);
                 obj.transform.SetParent(listData.SlotDataList.RightSlot.Slot);
                 listData.SlotDataList.RightSlot.ItemView = obj;
-                obj.Init();
+                obj.Init(isDark);
             }
         }
     }
@@ -100,33 +102,13 @@ public class GridView : MonoBehaviour
 
         var pos = middleItem.transform.position.x;
 
-        leftItem.transform.DOLocalMoveZ(-1, 0.3f).OnComplete(() =>
-        {
-            leftItem.transform.DOMoveX(pos, 0.5f).SetEase(Ease.InQuart).OnComplete(() =>
-            {
-                frontRow.LeftSlot.ItemView = null;
-                Destroy(leftItem.gameObject);
-            });
-        });
+        leftItem.DestroyAnim(pos);
+        rightItem.DestroyAnim(pos);
+        middleItem.DestroyAnim(pos);
 
-        rightItem.transform.DOLocalMoveZ(-1, 0.3f).OnComplete(() =>
-        {
-            rightItem.transform.DOMoveX(pos, 0.5f).SetEase(Ease.InQuart).OnComplete(() =>
-            {
-                frontRow.RightSlot.ItemView = null;
-                Destroy(rightItem.gameObject);
-            });
-        });
-
-
-        middleItem.transform.DOLocalMoveZ(-1, 0.3f).OnComplete(() =>
-        {
-            middleItem.transform.DOMoveX(pos, 0.5f).SetEase(Ease.InQuart).OnComplete(() =>
-            {
-                frontRow.MiddleSlot.ItemView = null;
-                Destroy(middleItem.gameObject);
-            });
-        });
+        frontRow.LeftSlot.ItemView = null;
+        frontRow.MiddleSlot.ItemView = null;
+        frontRow.RightSlot.ItemView = null;
     }
 
     public bool IsGridEmpty()
@@ -161,7 +143,7 @@ public class GridView : MonoBehaviour
 
     private bool IsAllItemsAreSame()
     {
-        if (GetRowsItemCount() != 3) return true;
+        if (GetRowsItemCount() != 3) return false;
 
         var firstIndex = slotListData[0].SlotDataList.LeftSlot.ItemView.ItemIndex;
 

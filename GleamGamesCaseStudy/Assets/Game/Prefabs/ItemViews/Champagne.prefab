@@ -46,6 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2fc360cda3de47c3a59d004347f6ba8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  meshRenderer: {fileID: 9222779633450473355}
   itemIndex: 0
 --- !u!65 &3257835914253306128
 BoxCollider:
@@ -140,5 +141,10 @@ PrefabInstance:
 --- !u!4 &8049843395018501348 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d21427c2d96c04031a0271db212d72d8, type: 3}
+  m_PrefabInstance: {fileID: 7511002074657016591}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &9222779633450473355 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: d21427c2d96c04031a0271db212d72d8, type: 3}
   m_PrefabInstance: {fileID: 7511002074657016591}
   m_PrefabAsset: {fileID: 0}
