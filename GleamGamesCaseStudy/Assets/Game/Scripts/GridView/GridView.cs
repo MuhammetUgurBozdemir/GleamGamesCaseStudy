@@ -1,5 +1,4 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Zenject;
@@ -46,6 +45,39 @@ public class GridView : MonoBehaviour
                 obj.Init();
             }
         }
+    }
+    
+    private int GetRowsItemCount()
+    {
+        int count = 0;
+
+        if (slotListData[0].SlotDataList.LeftSlot.ItemView != null)
+            count++;
+        if (slotListData[0].SlotDataList.MiddleSlot.ItemView != null)
+            count++;
+        if (slotListData[0].SlotDataList.RightSlot.ItemView != null)
+            count++;
+
+        return count;
+    }
+
+
+    private bool IsAllItemsAreSame()
+    {
+        if (GetRowsItemCount() != 3) return true;
+        
+        var firstIndex = slotListData[0].SlotDataList.LeftSlot.ItemView.ItemIndex;
+            
+        var listData = slotListData[0].SlotDataList;
+            
+        if (listData.LeftSlot.ItemView.ItemIndex != firstIndex ||
+            listData.MiddleSlot.ItemView.ItemIndex != firstIndex ||
+            listData.RightSlot.ItemView.ItemIndex != firstIndex)
+        {
+            return false;
+        }
+
+        return true;
     }
 }
 
