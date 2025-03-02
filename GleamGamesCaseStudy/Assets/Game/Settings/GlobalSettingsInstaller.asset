@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6073d99dee364c42b7bfe499c3f824e, type: 3}
   m_Name: GlobalSettingsInstaller
   m_EditorClassIdentifier: 
-  settings: []
+  settings:
+  - {fileID: 11400000, guid: c69771dac17374efb90f39634594e23c, type: 2}
