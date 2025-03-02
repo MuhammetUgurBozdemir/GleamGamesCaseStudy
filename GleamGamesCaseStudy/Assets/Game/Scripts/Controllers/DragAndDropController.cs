@@ -24,14 +24,14 @@ public class DragAndDrop3D : MonoBehaviour
                 if (hit.collider.CompareTag("ItemView"))
                 {
                     selectedObject = hit.collider.GetComponent<ItemView>();
-                    
+
                     var position = selectedObject.transform.position;
                     startPosition = position;
                     offset = position - GetMouseWorldPos();
                     isDragging = true;
-                    
+
                     originalZ = position.z;
-                    
+
                     position = new Vector3(position.x, position.y, -2f);
                     selectedObject.transform.position = position;
                 }
@@ -46,18 +46,25 @@ public class DragAndDrop3D : MonoBehaviour
         if (Input.GetMouseButtonUp(0) && isDragging)
         {
             isDragging = false;
-            
-            if (!IsOverGridView())
+
+            var grid = IsOverGridView();
+            if (grid == null)
             {
                 selectedObject.transform.position = startPosition;
             }
             else
             {
-                var position = selectedObject.transform.position;
-                position = new Vector3(position.x, position.y, originalZ);
-                selectedObject.transform.position = position;
+                if (grid.PutNewItemToSlot(selectedObject))
+                {
+                    selectedObject = null;
+                    grid.DestroyItems();
+                }
+                else
+                {
+                    selectedObject.transform.position = startPosition;
+                }
             }
-            
+
             selectedObject = null;
         }
     }
@@ -69,15 +76,13 @@ public class DragAndDrop3D : MonoBehaviour
         return mainCamera.ScreenToWorldPoint(mousePoint);
     }
 
-    private bool IsOverGridView()
+    private GridView IsOverGridView()
     {
         int draggingGridLayer = LayerMask.GetMask("ItemView");
         int layerMask = ~draggingGridLayer;
-        
-        if (Physics.Raycast(selectedObject.transform.position, Vector3.forward, out var hit, Mathf.Infinity, layerMask))
-        {
-            return hit.collider.CompareTag("GridView");
-        }
-        return false;
+
+        if (!Physics.Raycast(selectedObject.transform.position, Vector3.forward, out var hit, Mathf.Infinity, layerMask)) return null;
+
+        return hit.collider.CompareTag("GridView") ? hit.collider.GetComponent<GridView>() : null;
     }
 }
