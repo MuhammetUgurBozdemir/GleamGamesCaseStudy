@@ -385,6 +385,12 @@
 "Assets/Epic Toon FX/Scripts/ETFXLightFade.cs"
 "Assets/Epic Toon FX/Scripts/ETFXPitchRandomizer.cs"
 "Assets/Epic Toon FX/Scripts/ETFXRotation.cs"
+"Assets/Game/Scripts/Controllers/LevelController.cs"
+"Assets/Game/Scripts/GridView/GridView.cs"
+"Assets/Game/Scripts/Installers/GlobalSettingsInstaller.cs"
+"Assets/Game/Scripts/Installers/GoodSortGameInstaller.cs"
+"Assets/Game/Scripts/LevelView/LevelView.cs"
+"Assets/Game/Scripts/Settings/LevelSettings.cs"
 -langversion:9.0
 /deterministic
 /optimize-
