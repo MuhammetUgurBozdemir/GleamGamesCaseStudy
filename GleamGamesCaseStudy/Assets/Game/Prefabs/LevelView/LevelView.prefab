@@ -326,6 +326,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6818362523930559061, guid: 83e2209c07b404f2dadb38aef75260f7, type: 3}
+      propertyPath: slotListData.Array.data[0].ItemView
+      value: 
+      objectReference: {fileID: 2381907652406263151, guid: aaa08c2a9adcc49a68720965aefa1c56, type: 3}
+    - target: {fileID: 6818362523930559061, guid: 83e2209c07b404f2dadb38aef75260f7, type: 3}
+      propertyPath: slotListData.Array.data[1].ItemView
+      value: 
+      objectReference: {fileID: 2381907652406263151, guid: aaa08c2a9adcc49a68720965aefa1c56, type: 3}
+    - target: {fileID: 6818362523930559061, guid: 83e2209c07b404f2dadb38aef75260f7, type: 3}
+      propertyPath: slotListData.Array.data[3].ItemView
+      value: 
+      objectReference: {fileID: 8919979897637350435, guid: f4ddf7b91d2e94f4aad776c73ec7eb23, type: 3}
+    - target: {fileID: 6818362523930559061, guid: 83e2209c07b404f2dadb38aef75260f7, type: 3}
+      propertyPath: slotListData.Array.data[4].ItemView
+      value: 
+      objectReference: {fileID: 8919979897637350435, guid: f4ddf7b91d2e94f4aad776c73ec7eb23, type: 3}
+    - target: {fileID: 6818362523930559061, guid: 83e2209c07b404f2dadb38aef75260f7, type: 3}
+      propertyPath: slotListData.Array.data[7].ItemView
+      value: 
+      objectReference: {fileID: 3102224305934116000, guid: d2ae71fdb628d446787413bd601c3151, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -473,21 +493,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6818362523930559061, guid: 83e2209c07b404f2dadb38aef75260f7, type: 3}
-      propertyPath: slotListData.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6818362523930559061, guid: 83e2209c07b404f2dadb38aef75260f7, type: 3}
-      propertyPath: slotListData.Array.data[0].SlotDataList.LeftSlot.ItemView
+      propertyPath: slotListData.Array.data[0].ItemView
       value: 
-      objectReference: {fileID: 2381907652406263151, guid: aaa08c2a9adcc49a68720965aefa1c56, type: 3}
+      objectReference: {fileID: 8919979897637350435, guid: f4ddf7b91d2e94f4aad776c73ec7eb23, type: 3}
     - target: {fileID: 6818362523930559061, guid: 83e2209c07b404f2dadb38aef75260f7, type: 3}
-      propertyPath: slotListData.Array.data[0].SlotDataList.RightSlot.ItemView
+      propertyPath: slotListData.Array.data[1].ItemView
       value: 
-      objectReference: {fileID: 3994041710075382647, guid: 030e342453b864fe294abe448c9ced03, type: 3}
+      objectReference: {fileID: 8919979897637350435, guid: f4ddf7b91d2e94f4aad776c73ec7eb23, type: 3}
     - target: {fileID: 6818362523930559061, guid: 83e2209c07b404f2dadb38aef75260f7, type: 3}
-      propertyPath: slotListData.Array.data[0].SlotDataList.MiddleSlot.ItemView
+      propertyPath: slotListData.Array.data[2].ItemView
       value: 
-      objectReference: {fileID: 2381907652406263151, guid: aaa08c2a9adcc49a68720965aefa1c56, type: 3}
+      objectReference: {fileID: 8919979897637350435, guid: f4ddf7b91d2e94f4aad776c73ec7eb23, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

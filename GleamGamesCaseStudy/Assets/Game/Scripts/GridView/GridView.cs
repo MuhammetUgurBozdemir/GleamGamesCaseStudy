@@ -1,12 +1,13 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using DG.Tweening;
 using UnityEngine;
 using Zenject;
 
 public class GridView : MonoBehaviour
 {
-    [SerializeField] private List<SlotListData> slotListData;
+    [SerializeField] private List<SlotItemData> slotListData;
 
     #region Injection
 
@@ -25,29 +26,13 @@ public class GridView : MonoBehaviour
     {
         foreach (var listData in slotListData)
         {
-            bool isDark = slotListData.IndexOf(listData) == slotListData.Count-1;
-            
-            if (listData.SlotDataList.LeftSlot.ItemView != null)
-            {
-                var obj = container.InstantiatePrefabForComponent<ItemView>(listData.SlotDataList.LeftSlot.ItemView);
-                obj.transform.SetParent(listData.SlotDataList.LeftSlot.Slot);
-                listData.SlotDataList.LeftSlot.ItemView = obj;
-                obj.Init(isDark);
-            }
+            bool isDark = slotListData.IndexOf(listData) == slotListData.Count - 1;
 
-            if (listData.SlotDataList.MiddleSlot.ItemView != null)
+            if (listData.ItemView != null)
             {
-                var obj = container.InstantiatePrefabForComponent<ItemView>(listData.SlotDataList.MiddleSlot.ItemView);
-                obj.transform.SetParent(listData.SlotDataList.MiddleSlot.Slot);
-                listData.SlotDataList.MiddleSlot.ItemView = obj;
-                obj.Init(isDark);
-            }
-
-            if (listData.SlotDataList.RightSlot.ItemView != null)
-            {
-                var obj = container.InstantiatePrefabForComponent<ItemView>(listData.SlotDataList.RightSlot.ItemView);
-                obj.transform.SetParent(listData.SlotDataList.RightSlot.Slot);
-                listData.SlotDataList.RightSlot.ItemView = obj;
+                var obj = container.InstantiatePrefabForComponent<ItemView>(listData.ItemView);
+                obj.transform.SetParent(listData.Slot);
+                listData.ItemView = obj;
                 obj.Init(isDark);
             }
         }
@@ -55,33 +40,23 @@ public class GridView : MonoBehaviour
 
     public bool PutNewItemToSlot(ItemView _item)
     {
-        var slot = slotListData[0].SlotDataList;
+        SlotItemData slot = null;
 
-        if (slot.LeftSlot.ItemView == null)
+        for (int i = 0; i < 3; i++)
         {
-            slot.LeftSlot.ItemView = _item;
-            _item.transform.SetParent(slot.LeftSlot.Slot);
-            _item.Init();
-            return true;
+            if (slotListData[i].ItemView == null)
+            {
+                slot = slotListData[i];
+            }
         }
 
-        if (slot.MiddleSlot.ItemView == null)
-        {
-            slot.MiddleSlot.ItemView = _item;
-            _item.transform.SetParent(slot.MiddleSlot.Slot);
-            _item.Init();
-            return true;
-        }
+        if (slot == null) return false;
 
-        if (slot.RightSlot.ItemView == null)
-        {
-            slot.RightSlot.ItemView = _item;
-            _item.transform.SetParent(slot.RightSlot.Slot);
-            _item.Init();
-            return true;
-        }
+        slot.ItemView = _item;
+        _item.transform.SetParent(slot.Slot);
+        _item.Init();
 
-        return false;
+        return true;
     }
 
     public void DestroyItems()
@@ -94,48 +69,26 @@ public class GridView : MonoBehaviour
 
     private void DestroyFrontRowItems()
     {
-        var frontRow = slotListData[0].SlotDataList;
-
-        var leftItem = frontRow.LeftSlot.ItemView;
-        var middleItem = frontRow.MiddleSlot.ItemView;
-        var rightItem = frontRow.RightSlot.ItemView;
-
-        var pos = middleItem.transform.position.x;
-
-        leftItem.DestroyAnim(pos);
-        rightItem.DestroyAnim(pos);
-        middleItem.DestroyAnim(pos);
-
-        frontRow.LeftSlot.ItemView = null;
-        frontRow.MiddleSlot.ItemView = null;
-        frontRow.RightSlot.ItemView = null;
+        for (var i = 0; i < 3; i++)
+        {
+            slotListData[i].ItemView.DestroyAnim(slotListData[1].Slot.position.x);
+            slotListData[i].ItemView = null;
+        }
     }
 
     public bool IsGridEmpty()
     {
-        foreach (var listData in slotListData)
-        {
-            if (listData.SlotDataList.LeftSlot.ItemView != null ||
-                listData.SlotDataList.MiddleSlot.ItemView != null ||
-                listData.SlotDataList.RightSlot.ItemView != null)
-            {
-                return false;
-            }
-        }
-
-        return true;
+        return slotListData.All(_x => _x.ItemView == null);
     }
 
     private int GetRowsItemCount()
     {
         int count = 0;
 
-        if (slotListData[0].SlotDataList.LeftSlot.ItemView != null)
-            count++;
-        if (slotListData[0].SlotDataList.MiddleSlot.ItemView != null)
-            count++;
-        if (slotListData[0].SlotDataList.RightSlot.ItemView != null)
-            count++;
+        for (int i = 0; i < 3; i++)
+        {
+            if (slotListData[i].ItemView != null) count++;
+        }
 
         return count;
     }
@@ -145,34 +98,18 @@ public class GridView : MonoBehaviour
     {
         if (GetRowsItemCount() != 3) return false;
 
-        var firstIndex = slotListData[0].SlotDataList.LeftSlot.ItemView.ItemIndex;
+        var firstIndex = slotListData[0].ItemView.ItemIndex;
 
-        var listData = slotListData[0].SlotDataList;
-
-        if (listData.LeftSlot.ItemView.ItemIndex != firstIndex ||
-            listData.MiddleSlot.ItemView.ItemIndex != firstIndex ||
-            listData.RightSlot.ItemView.ItemIndex != firstIndex)
+        for (int i = 0; i < 3; i++)
         {
-            return false;
+            if (slotListData[i].ItemView.ItemIndex != firstIndex)
+            {
+                return false;
+            }
         }
 
         return true;
     }
-}
-
-
-[Serializable]
-public class SlotListData
-{
-    public SlotData SlotDataList;
-}
-
-[Serializable]
-public class SlotData
-{
-    public SlotItemData LeftSlot;
-    public SlotItemData MiddleSlot;
-    public SlotItemData RightSlot;
 }
 
 
