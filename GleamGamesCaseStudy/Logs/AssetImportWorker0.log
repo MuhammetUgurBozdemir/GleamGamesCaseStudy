@@ -7214,3 +7214,410 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:scripting/precompiled-assembly-types:Assembly-CSharp: f62faf7168912625b4f6fd1a9827a11b -> a403e1df22d9f1eac3caa88a66905952
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x178687000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.376 seconds
+Native extension for iOS target not found
+2025-03-03 21:49:11.565 Unity[2186:25455] [XcodeApplications] Failed to read NSDictionary from path /Users/muhammetbozdemir/Downloads/Xcode.app/Contents/Info.plist
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.381 seconds
+Domain Reload Profiling: 1758ms
+	BeginReloadAssembly (120ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (207ms)
+		LoadAssemblies (216ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1382ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (756ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (604ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 1.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3997 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (31.6 KB). Loaded Objects now: 4860.
+Memory consumption went from 1.64 GB to 1.64 GB.
+Total: 17.421417 ms (FindLiveObjects: 0.173958 ms CreateObjectMapping: 0.054959 ms MarkObjects: 16.584125 ms  DeleteObjects: 0.607667 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/GameSignalsInstaller.cs: 597a144f34172add29477214cb011b50 -> 
+  custom:scripting/monoscript/fileName/GlobalSignals.cs: b77418b5fdf433846043244023520519 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/GridView.cs: 938f5b433ff2dc630f20cd9b477f8974 -> 22d4c6a385e1e9603ff6cf5ea594fbed
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: f62faf7168912625b4f6fd1a9827a11b -> a403e1df22d9f1eac3caa88a66905952
+========================================================================
+Received Import Request.
+  Time since last request: 2449.201299 seconds.
+  path: Assets/Game/Prefabs/ItemViews/Champagne.prefab
+  artifactKey: Guid(aaa08c2a9adcc49a68720965aefa1c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs/ItemViews/Champagne.prefab using Guid(aaa08c2a9adcc49a68720965aefa1c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '024761a2a4744f01f86fd0107f64c0b8') in 0.158438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Game/Prefabs/ItemViews/Stanley.prefab
+  artifactKey: Guid(d2ae71fdb628d446787413bd601c3151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs/ItemViews/Stanley.prefab using Guid(d2ae71fdb628d446787413bd601c3151) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b584d728e3af9f214635a4685d7ee6c4') in 0.018448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Game/Prefabs/ItemViews/SodaBottle.prefab
+  artifactKey: Guid(f4ddf7b91d2e94f4aad776c73ec7eb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs/ItemViews/SodaBottle.prefab using Guid(f4ddf7b91d2e94f4aad776c73ec7eb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f4b815f498747ed12ffd66b4b96d9c9c') in 0.023624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Game/Prefabs/ItemViews/MilkBox.prefab
+  artifactKey: Guid(030e342453b864fe294abe448c9ced03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs/ItemViews/MilkBox.prefab using Guid(030e342453b864fe294abe448c9ced03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f9af84a421f8ac955e4a253a482e7312') in 0.010453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 2.040707 seconds.
+  path: Assets/Game/Prefabs/ItemViews/SodaBottle 1.prefab
+  artifactKey: Guid(2ee8cf7ea87444faa94f3dd8cbecb5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs/ItemViews/SodaBottle 1.prefab using Guid(2ee8cf7ea87444faa94f3dd8cbecb5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '166ee78c1ef4fab8c104f7aab7c9482c') in 0.008690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 8.142483 seconds.
+  path: Assets/Game/Materials/Bottle 2.mat
+  artifactKey: Guid(8be17af29bfcd49cdba3b26d5e547c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Materials/Bottle 2.mat using Guid(8be17af29bfcd49cdba3b26d5e547c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd90700ef6dba60718929dde70a0b8ab4') in 0.059274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.567568 seconds.
+  path: Assets/Game/Prefabs/ItemViews/SodaBottle 1.prefab
+  artifactKey: Guid(2ee8cf7ea87444faa94f3dd8cbecb5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs/ItemViews/SodaBottle 1.prefab using Guid(2ee8cf7ea87444faa94f3dd8cbecb5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '27cea11d7c60e35564b5c80f19810f4a') in 0.021472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 16.659314 seconds.
+  path: Assets/Game/Prefabs/ItemViews/SodaBottle 1.prefab
+  artifactKey: Guid(2ee8cf7ea87444faa94f3dd8cbecb5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs/ItemViews/SodaBottle 1.prefab using Guid(2ee8cf7ea87444faa94f3dd8cbecb5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '079d0c5732a19a7eb52eec936e12057d') in 0.035122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 1.864753 seconds.
+  path: Assets/Game/Prefabs/ItemViews/SodaBottle 2.prefab
+  artifactKey: Guid(564a4b24f28b34e9b813d4410d7e009c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs/ItemViews/SodaBottle 2.prefab using Guid(564a4b24f28b34e9b813d4410d7e009c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3708baf679a12665ea0ae831ce107990') in 0.009563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 0.008089 seconds.
+  path: Assets/Game/Prefabs/ItemViews/SodaBottle 1.prefab
+  artifactKey: Guid(2ee8cf7ea87444faa94f3dd8cbecb5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs/ItemViews/SodaBottle 1.prefab using Guid(2ee8cf7ea87444faa94f3dd8cbecb5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '748cb4e2a0b6fcd47b190059f9dddef5') in 0.009101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 4.385112 seconds.
+  path: Assets/Game/Materials/Bottle 2.mat
+  artifactKey: Guid(8be17af29bfcd49cdba3b26d5e547c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Materials/Bottle 2.mat using Guid(8be17af29bfcd49cdba3b26d5e547c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c2aeff50145f0c849348918154fbfb2a') in 0.016639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.187521 seconds.
+  path: Assets/Game/Materials/Bottle 3.mat
+  artifactKey: Guid(07b8e6fe4278d4d5caeeb92346a8e699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Materials/Bottle 3.mat using Guid(07b8e6fe4278d4d5caeeb92346a8e699) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c0555f20210775549ea59cb1ad578892') in 0.005478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.621164 seconds.
+  path: Assets/Game/Prefabs/ItemViews/SodaBottle 2.prefab
+  artifactKey: Guid(564a4b24f28b34e9b813d4410d7e009c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs/ItemViews/SodaBottle 2.prefab using Guid(564a4b24f28b34e9b813d4410d7e009c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a437a0b1de73bc544071429e57b263a3') in 0.015842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 5.393087 seconds.
+  path: Assets/Game/Prefabs/ItemViews/SodaBottle 2.prefab
+  artifactKey: Guid(564a4b24f28b34e9b813d4410d7e009c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs/ItemViews/SodaBottle 2.prefab using Guid(564a4b24f28b34e9b813d4410d7e009c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '168283210b8dd49c9812cd9494e538d1') in 0.014054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 7.542399 seconds.
+  path: Assets/Game/Prefabs/LevelView/LevelView.prefab
+  artifactKey: Guid(1a44ca5d2f82546379b9cc5c7f3c76ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs/LevelView/LevelView.prefab using Guid(1a44ca5d2f82546379b9cc5c7f3c76ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '70fdbb620b40aa86711dc679f75cbf5c') in 0.092122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 482
+========================================================================
+Received Import Request.
+  Time since last request: 13.857416 seconds.
+  path: Assets/Game/Prefabs/LevelView/LevelView.prefab
+  artifactKey: Guid(1a44ca5d2f82546379b9cc5c7f3c76ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs/LevelView/LevelView.prefab using Guid(1a44ca5d2f82546379b9cc5c7f3c76ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9e9dde1c0f1c779ed4ae6c8d9b0301a3') in 0.045152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 269
+========================================================================
+Received Import Request.
+  Time since last request: 6.025551 seconds.
+  path: Assets/Game/Prefabs/LevelView/LevelView.prefab
+  artifactKey: Guid(1a44ca5d2f82546379b9cc5c7f3c76ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs/LevelView/LevelView.prefab using Guid(1a44ca5d2f82546379b9cc5c7f3c76ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '56d620bdd702401abe2dab8cf996738d') in 0.020416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 269
+========================================================================
+Received Import Request.
+  Time since last request: 25.912021 seconds.
+  path: Assets/Game/Prefabs/LevelView/LevelView.prefab
+  artifactKey: Guid(1a44ca5d2f82546379b9cc5c7f3c76ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs/LevelView/LevelView.prefab using Guid(1a44ca5d2f82546379b9cc5c7f3c76ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f956c3c82c1730e3bffe46375e87f6b8') in 0.056228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 269
+========================================================================
+Received Import Request.
+  Time since last request: 4.809909 seconds.
+  path: Assets/Game/Prefabs/LevelView/LevelView.prefab
+  artifactKey: Guid(1a44ca5d2f82546379b9cc5c7f3c76ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs/LevelView/LevelView.prefab using Guid(1a44ca5d2f82546379b9cc5c7f3c76ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2649c5e35f5cdf5613c9e4e3ce98dbd0') in 0.017559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 269
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x178687000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.365 seconds
+Native extension for iOS target not found
+2025-03-03 22:02:38.069 Unity[2186:25455] [XcodeApplications] Failed to read NSDictionary from path /Users/muhammetbozdemir/Downloads/Xcode.app/Contents/Info.plist
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.279 seconds
+Domain Reload Profiling: 1644ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (189ms)
+		LoadAssemblies (205ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1279ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (732ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (586ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 2.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3996 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (31.6 KB). Loaded Objects now: 4863.
+Memory consumption went from 1.66 GB to 1.66 GB.
+Total: 16.108959 ms (FindLiveObjects: 0.198583 ms CreateObjectMapping: 0.057416 ms MarkObjects: 15.748959 ms  DeleteObjects: 0.102917 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/GameSignalsInstaller.cs: 597a144f34172add29477214cb011b50 -> 
+  custom:scripting/monoscript/fileName/GlobalSignals.cs: b77418b5fdf433846043244023520519 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/GridView.cs: 938f5b433ff2dc630f20cd9b477f8974 -> 22d4c6a385e1e9603ff6cf5ea594fbed
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: f62faf7168912625b4f6fd1a9827a11b -> a403e1df22d9f1eac3caa88a66905952
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x178687000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.310 seconds
+Native extension for iOS target not found
+2025-03-03 22:02:58.387 Unity[2186:25455] [XcodeApplications] Failed to read NSDictionary from path /Users/muhammetbozdemir/Downloads/Xcode.app/Contents/Info.plist
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.151 seconds
+Domain Reload Profiling: 1463ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (156ms)
+		LoadAssemblies (167ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1151ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (716ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (569ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 1.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3997 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (32.6 KB). Loaded Objects now: 4866.
+Memory consumption went from 1.67 GB to 1.67 GB.
+Total: 15.217959 ms (FindLiveObjects: 0.209625 ms CreateObjectMapping: 0.056625 ms MarkObjects: 14.875750 ms  DeleteObjects: 0.075500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/GameSignalsInstaller.cs: 597a144f34172add29477214cb011b50 -> 
+  custom:scripting/monoscript/fileName/GlobalSignals.cs: b77418b5fdf433846043244023520519 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/GridView.cs: 938f5b433ff2dc630f20cd9b477f8974 -> 22d4c6a385e1e9603ff6cf5ea594fbed
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: f62faf7168912625b4f6fd1a9827a11b -> a403e1df22d9f1eac3caa88a66905952
+========================================================================
+Received Import Request.
+  Time since last request: 97.065415 seconds.
+  path: Assets/Game/Prefabs/ItemViews/SodaBottle 2.prefab
+  artifactKey: Guid(564a4b24f28b34e9b813d4410d7e009c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs/ItemViews/SodaBottle 2.prefab using Guid(564a4b24f28b34e9b813d4410d7e009c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2efd662eede55b0cf804fe405f13c5a0') in 0.073066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
