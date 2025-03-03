@@ -12,11 +12,13 @@ public class GridView : MonoBehaviour
     #region Injection
 
     DiContainer container;
+    SignalBus signalBus;
 
     [Inject]
-    private void Construct(DiContainer _container)
+    private void Construct(DiContainer _container, SignalBus _signalBus)
     {
         container = _container;
+        signalBus = _signalBus;
     }
 
     #endregion
@@ -24,16 +26,18 @@ public class GridView : MonoBehaviour
 
     public void Init()
     {
-        foreach (var listData in slotListData)
-        {
-            bool isDark = slotListData.IndexOf(listData) == slotListData.Count - 1;
+        signalBus.Subscribe<ItemSlotChangedSignal>(MoveSlotToFront);
 
-            if (listData.ItemView != null)
+        foreach (var slotItemData in slotListData)
+        {
+            bool isDark = slotListData.IndexOf(slotItemData) > 2;
+
+            if (slotItemData.ItemView != null)
             {
-                var obj = container.InstantiatePrefabForComponent<ItemView>(listData.ItemView);
-                obj.transform.SetParent(listData.Slot);
-                listData.ItemView = obj;
-                obj.Init(isDark);
+                var obj = container.InstantiatePrefabForComponent<ItemView>(slotItemData.ItemView);
+                obj.transform.SetParent(slotItemData.Slot);
+                slotItemData.ItemView = obj;
+                obj.Init(slotItemData, isDark);
             }
         }
     }
@@ -52,9 +56,11 @@ public class GridView : MonoBehaviour
 
         if (slot == null) return false;
 
+        _item.SetSlotEmpty();
         slot.ItemView = _item;
         _item.transform.SetParent(slot.Slot);
-        _item.Init();
+        _item.Init(slot);
+        signalBus.Fire<ItemSlotChangedSignal>();
 
         return true;
     }
@@ -69,10 +75,55 @@ public class GridView : MonoBehaviour
 
     private void DestroyFrontRowItems()
     {
-        for (var i = 0; i < 3; i++)
+        const int count = 3;
+
+        for (int i = 0; i < count; i++)
         {
-            slotListData[i].ItemView.DestroyAnim(slotListData[1].Slot.position.x);
-            slotListData[i].ItemView = null;
+            var item = slotListData[i];
+            item.ItemView.DestroyAnim(slotListData[1].Slot.position.x);
+            item.ItemView = null;
+        }
+
+        foreach (var slotItemData in slotListData)
+        {
+            if (slotItemData.ItemView == null) continue;
+            
+            var item = slotItemData.ItemView;
+            var newSlot = slotListData[slotListData.IndexOf(slotItemData.ItemView.ParentSlot) - 3];
+
+            bool isDark = slotListData.IndexOf(newSlot) > 2;
+
+            slotItemData.ItemView.transform.SetParent(newSlot.Slot);
+
+            item.SetSlotEmpty();
+            newSlot.ItemView = item;
+
+            item.transform.DOLocalMoveZ(0, 0.5f).SetDelay(0.5f).OnComplete(() => { item.Init(newSlot, isDark); });
+        }
+    }
+
+    private void MoveSlotToFront()
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            if (slotListData[i].ItemView != null) return;
+        }
+
+        foreach (var slotItemData in slotListData)
+        {
+            if (slotItemData.ItemView == null) continue;
+            
+            var item = slotItemData.ItemView;
+            var newSlot = slotListData[slotListData.IndexOf(slotItemData.ItemView.ParentSlot) - 3];
+
+            bool isDark = slotListData.IndexOf(newSlot) > 2;
+
+            slotItemData.ItemView.transform.SetParent(newSlot.Slot);
+
+            item.SetSlotEmpty();
+            newSlot.ItemView = item;
+
+            item.transform.DOLocalMoveZ(0, 0.5f).SetDelay(0.5f).OnComplete(() => { item.Init(newSlot, isDark); });
         }
     }
 
@@ -109,6 +160,11 @@ public class GridView : MonoBehaviour
         }
 
         return true;
+    }
+
+    public void Dispose()
+    {
+        signalBus.Unsubscribe<ItemSlotChangedSignal>(MoveSlotToFront);
     }
 }
 

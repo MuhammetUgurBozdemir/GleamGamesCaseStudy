@@ -18,7 +18,7 @@ public class GoodSortGameInstaller : MonoInstaller
     public override void InstallBindings()
     {
         //signal install
-        //GameSignalsInstaller.Install(Container);
+        GameSignalsInstaller.Install(Container);
 
         Container.BindInterfacesAndSelfTo<LevelController>().AsSingle();
     }

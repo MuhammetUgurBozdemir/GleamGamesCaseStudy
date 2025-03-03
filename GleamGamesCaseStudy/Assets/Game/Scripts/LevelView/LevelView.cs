@@ -105,6 +105,11 @@ public class LevelView : MonoBehaviour
 
     public void Dispose()
     {
+        foreach (var gridView in gridViews)
+        {
+            gridView.Dispose();
+        }
+
         Destroy(gameObject);
     }
 }

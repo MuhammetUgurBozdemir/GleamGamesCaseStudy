@@ -22,6 +22,9 @@ public class LevelController : IInitializable
 
     public void NextLevel()
     {
-        
+        var nextLevelIndex = currentLevelView.LevelIndex + 1;
+        currentLevelView.Dispose();
+        currentLevelView = container.InstantiatePrefabForComponent<LevelView>(levelSettings.Levels[nextLevelIndex]);
+        currentLevelView.Init();
     }
 }

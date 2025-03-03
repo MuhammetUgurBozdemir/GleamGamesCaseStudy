@@ -47,7 +47,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 1970435777643789756}
-  itemIndex: 0
+  itemIndex: 3
+  initialColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &9114695771716216027
 BoxCollider:
   m_ObjectHideFlags: 0
