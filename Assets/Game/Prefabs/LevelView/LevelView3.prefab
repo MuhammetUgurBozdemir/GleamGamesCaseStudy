@@ -49,6 +49,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1914601433258880724, guid: ddd484ece58e94fdaa753aaf0a2568cf, type: 3}
+      propertyPath: levelIndex
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1914601433258880724, guid: ddd484ece58e94fdaa753aaf0a2568cf, type: 3}
       propertyPath: gridViews.Array.data[0]
       value: 
       objectReference: {fileID: 4335399979286920450}
@@ -494,17 +498,25 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6818362523930559061, guid: 83e2209c07b404f2dadb38aef75260f7, type: 3}
-      propertyPath: slotListData.Array.data[4].ItemView
+      propertyPath: slotListData.Array.data[1].ItemView
       value: 
       objectReference: {fileID: 3102224305934116000, guid: 6fcfa09bd230a4f1f9d39ceb2da846d0, type: 3}
     - target: {fileID: 6818362523930559061, guid: 83e2209c07b404f2dadb38aef75260f7, type: 3}
-      propertyPath: slotListData.Array.data[5].ItemView
+      propertyPath: slotListData.Array.data[3].ItemView
       value: 
       objectReference: {fileID: 8919979897637350435, guid: 2ee8cf7ea87444faa94f3dd8cbecb5fd, type: 3}
     - target: {fileID: 6818362523930559061, guid: 83e2209c07b404f2dadb38aef75260f7, type: 3}
-      propertyPath: slotListData.Array.data[6].ItemView
+      propertyPath: slotListData.Array.data[4].ItemView
       value: 
       objectReference: {fileID: 3994041710075382647, guid: 030e342453b864fe294abe448c9ced03, type: 3}
+    - target: {fileID: 6818362523930559061, guid: 83e2209c07b404f2dadb38aef75260f7, type: 3}
+      propertyPath: slotListData.Array.data[5].ItemView
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6818362523930559061, guid: 83e2209c07b404f2dadb38aef75260f7, type: 3}
+      propertyPath: slotListData.Array.data[6].ItemView
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -537,6 +549,10 @@ PrefabInstance:
     - target: {fileID: 733917778476548930, guid: 83e2209c07b404f2dadb38aef75260f7, type: 3}
       propertyPath: m_Name
       value: Grid_2_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 733917778476548930, guid: 83e2209c07b404f2dadb38aef75260f7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 958739651637767931, guid: 83e2209c07b404f2dadb38aef75260f7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -668,17 +684,29 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6818362523930559061, guid: 83e2209c07b404f2dadb38aef75260f7, type: 3}
-      propertyPath: slotListData.Array.data[6].ItemView
+      propertyPath: slotListData.Array.data[1].ItemView
       value: 
       objectReference: {fileID: 8919979897637350435, guid: 0d1f4d22324e54be99c552634c83bce8, type: 3}
     - target: {fileID: 6818362523930559061, guid: 83e2209c07b404f2dadb38aef75260f7, type: 3}
-      propertyPath: slotListData.Array.data[7].ItemView
+      propertyPath: slotListData.Array.data[2].ItemView
       value: 
       objectReference: {fileID: 8919979897637350435, guid: f4ddf7b91d2e94f4aad776c73ec7eb23, type: 3}
     - target: {fileID: 6818362523930559061, guid: 83e2209c07b404f2dadb38aef75260f7, type: 3}
-      propertyPath: slotListData.Array.data[8].ItemView
+      propertyPath: slotListData.Array.data[4].ItemView
       value: 
       objectReference: {fileID: 3102224305934116000, guid: d2ae71fdb628d446787413bd601c3151, type: 3}
+    - target: {fileID: 6818362523930559061, guid: 83e2209c07b404f2dadb38aef75260f7, type: 3}
+      propertyPath: slotListData.Array.data[6].ItemView
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6818362523930559061, guid: 83e2209c07b404f2dadb38aef75260f7, type: 3}
+      propertyPath: slotListData.Array.data[7].ItemView
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6818362523930559061, guid: 83e2209c07b404f2dadb38aef75260f7, type: 3}
+      propertyPath: slotListData.Array.data[8].ItemView
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -838,9 +866,13 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8919979897637350435, guid: 564a4b24f28b34e9b813d4410d7e009c, type: 3}
     - target: {fileID: 6818362523930559061, guid: 83e2209c07b404f2dadb38aef75260f7, type: 3}
-      propertyPath: slotListData.Array.data[7].ItemView
+      propertyPath: slotListData.Array.data[5].ItemView
       value: 
       objectReference: {fileID: 8919979897637350435, guid: 0d1f4d22324e54be99c552634c83bce8, type: 3}
+    - target: {fileID: 6818362523930559061, guid: 83e2209c07b404f2dadb38aef75260f7, type: 3}
+      propertyPath: slotListData.Array.data[7].ItemView
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -915,9 +947,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6818362523930559061, guid: 83e2209c07b404f2dadb38aef75260f7, type: 3}
-      propertyPath: slotListData.Array.data[3].ItemView
+      propertyPath: unlockCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6818362523930559061, guid: 83e2209c07b404f2dadb38aef75260f7, type: 3}
+      propertyPath: slotListData.Array.data[1].ItemView
       value: 
       objectReference: {fileID: 8919979897637350435, guid: 2ee8cf7ea87444faa94f3dd8cbecb5fd, type: 3}
+    - target: {fileID: 6818362523930559061, guid: 83e2209c07b404f2dadb38aef75260f7, type: 3}
+      propertyPath: slotListData.Array.data[3].ItemView
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6818362523930559061, guid: 83e2209c07b404f2dadb38aef75260f7, type: 3}
       propertyPath: slotListData.Array.data[4].ItemView
       value: 
@@ -1081,9 +1121,13 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6818362523930559061, guid: 83e2209c07b404f2dadb38aef75260f7, type: 3}
-      propertyPath: slotListData.Array.data[7].ItemView
+      propertyPath: slotListData.Array.data[1].ItemView
       value: 
       objectReference: {fileID: 8919979897637350435, guid: 564a4b24f28b34e9b813d4410d7e009c, type: 3}
+    - target: {fileID: 6818362523930559061, guid: 83e2209c07b404f2dadb38aef75260f7, type: 3}
+      propertyPath: slotListData.Array.data[7].ItemView
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

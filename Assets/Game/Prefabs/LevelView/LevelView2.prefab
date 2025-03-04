@@ -57,7 +57,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 008518db2019345c2afd30a5204633f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelIndex: 0
+  levelIndex: 1
   gridViewPrefab: {fileID: 6818362523930559061, guid: 83e2209c07b404f2dadb38aef75260f7, type: 3}
   gridWidth: 3
   gridHeight: 4

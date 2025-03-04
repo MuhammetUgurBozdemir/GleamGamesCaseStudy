@@ -1,3 +1,4 @@
+using System.Threading;
 using UnityEngine;
 using Zenject;
 
@@ -7,6 +8,9 @@ public class LevelController : IInitializable
     private LevelView currentLevelView;
 
     DiContainer container;
+    
+    private CancellationTokenSource cancellationTokenSource;
+    
 
     public LevelController(LevelSettings _levelSettings, DiContainer _container)
     {
@@ -28,6 +32,12 @@ public class LevelController : IInitializable
     private void NextLevel()
     {
         var nextLevelIndex = currentLevelView.LevelIndex + 1;
+        
+        if (nextLevelIndex >= levelSettings.Levels.Length)
+        {
+            nextLevelIndex = 0;
+        }
+        
         currentLevelView.Dispose();
         currentLevelView = container.InstantiatePrefabForComponent<LevelView>(levelSettings.Levels[nextLevelIndex]);
         currentLevelView.Init();

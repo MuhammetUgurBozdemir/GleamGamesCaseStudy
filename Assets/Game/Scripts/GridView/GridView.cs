@@ -1,15 +1,21 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 using Zenject;
 
 public class GridView : MonoBehaviour
 {
     [SerializeField] private List<SlotItemData> slotListData;
     public List<SlotItemData> SlotListData => slotListData;
+    [SerializeField] private TextMeshProUGUI unlockText;
+    [SerializeField] private int unlockCount;
+
 
     #region Injection
 
@@ -27,10 +33,46 @@ public class GridView : MonoBehaviour
 
     #endregion
 
+    private CancellationTokenSource cancellationTokenSource;
+
+
+    private void OnEnable()
+    {
+        if (cancellationTokenSource != null)
+        {
+            cancellationTokenSource.Cancel();
+            cancellationTokenSource.Dispose();
+        }
+
+        cancellationTokenSource = new CancellationTokenSource();
+    }
+
+    private void OnDisable()
+    {
+        if (cancellationTokenSource != null)
+            cancellationTokenSource.Cancel();
+    }
+
+    private void OnDestroy()
+    {
+        if (cancellationTokenSource != null)
+        {
+            cancellationTokenSource.Cancel();
+            cancellationTokenSource.Dispose();
+        }
+    }
+
 
     public void Init()
     {
         signalBus.Subscribe<ItemSlotChangedSignal>(MoveSlotToFront);
+        signalBus.Subscribe<ItemsMergedSignal>(DecreaseUnlockCount);
+
+        if (unlockCount > 0)
+        {
+            unlockText.gameObject.SetActive(true);
+            unlockText.text = unlockCount.ToString();
+        }
 
         foreach (var slotItemData in slotListData)
         {
@@ -46,8 +88,18 @@ public class GridView : MonoBehaviour
         }
     }
 
+    private void DecreaseUnlockCount()
+    {
+        unlockCount--;
+        unlockText.text = unlockCount.ToString();
+
+        if (unlockCount == 0) unlockText.gameObject.SetActive(false);
+    }
+
     public bool PutNewItemToSlot(ItemView _item)
     {
+        if (unlockCount > 0) return false;
+
         SlotItemData slot = null;
 
         for (int i = 0; i < 3; i++)
@@ -106,12 +158,13 @@ public class GridView : MonoBehaviour
             item.transform.DOLocalMoveZ(0, 0.5f).SetDelay(0.5f).OnComplete(() => { item.Init(newSlot, isDark); });
         }
 
+        signalBus.Fire<ItemsMergedSignal>();
         DOCheckForLevelEnd().Forget();
     }
 
     private async UniTask DOCheckForLevelEnd()
     {
-        await UniTask.Delay(1000);
+        await UniTask.Delay(1000, cancellationToken: cancellationTokenSource.Token);
         levelController.CheckForLevelEnd();
     }
 
@@ -178,6 +231,7 @@ public class GridView : MonoBehaviour
     public void Dispose()
     {
         signalBus.Unsubscribe<ItemSlotChangedSignal>(MoveSlotToFront);
+        signalBus.Unsubscribe<ItemsMergedSignal>(DecreaseUnlockCount);
     }
 }
 

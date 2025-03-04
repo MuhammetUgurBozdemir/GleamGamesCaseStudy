@@ -10,5 +10,6 @@ public class GameSignalsInstaller : Installer<GameSignalsInstaller>
         SignalBusInstaller.Install(Container);
 
         Container.DeclareSignal<ItemSlotChangedSignal>().OptionalSubscriber();
+        Container.DeclareSignal<ItemsMergedSignal>().OptionalSubscriber();
     }
 }

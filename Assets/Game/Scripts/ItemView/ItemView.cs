@@ -14,9 +14,6 @@ public class ItemView : MonoBehaviour
     public int ItemIndex => itemIndex;
 
     [SerializeField] private Color initialColor;
-    
-  
-
 
     private void Awake()
     {

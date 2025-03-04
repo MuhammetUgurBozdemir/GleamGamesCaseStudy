@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class DragAndDrop3D : MonoBehaviour
@@ -23,6 +24,7 @@ public class DragAndDrop3D : MonoBehaviour
             {
                 if (hit.collider.CompareTag("ItemView"))
                 {
+                    if (Math.Abs(hit.transform.parent.localPosition.z - (-.5f)) != 0) return;
                     selectedObject = hit.collider.GetComponent<ItemView>();
 
                     var position = selectedObject.transform.position;
