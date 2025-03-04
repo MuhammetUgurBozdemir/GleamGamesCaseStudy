@@ -14,6 +14,8 @@ public class ItemView : MonoBehaviour
     public int ItemIndex => itemIndex;
 
     [SerializeField] private Color initialColor;
+    
+    Tween tween;
 
     private void Awake()
     {
@@ -37,6 +39,15 @@ public class ItemView : MonoBehaviour
 
     public void DestroyAnim(float _pos)
     {
-        transform.DOLocalMoveZ(-1, 0.3f).OnComplete(() => { transform.DOMoveX(_pos, 0.5f).SetEase(Ease.InOutBack).OnComplete(() => { Destroy(gameObject); }); });
+        tween= transform.DOLocalMoveZ(-1, 0.3f).OnComplete(() => { transform.DOMoveX(_pos, 0.5f).SetEase(Ease.InOutBack).OnComplete(() => { Destroy(gameObject); }); });
+    }
+    
+    public void Dispose()
+    {
+        if (tween != null)
+        {
+            tween.Kill();
+            tween = null;
+        }
     }
 }

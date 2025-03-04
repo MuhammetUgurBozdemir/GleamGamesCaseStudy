@@ -230,6 +230,11 @@ public class GridView : MonoBehaviour
 
     public void Dispose()
     {
+        foreach (var slotItemData in slotListData.Where(_slotItemData => _slotItemData.ItemView))
+        {
+            slotItemData.ItemView.Dispose();
+        }
+
         signalBus.Unsubscribe<ItemSlotChangedSignal>(MoveSlotToFront);
         signalBus.Unsubscribe<ItemsMergedSignal>(DecreaseUnlockCount);
     }
