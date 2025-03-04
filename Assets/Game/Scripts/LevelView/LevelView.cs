@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,6 +32,8 @@ public class LevelView : MonoBehaviour
 
 
     [SerializeField] private List<GridView> gridViews;
+
+    [SerializeField] private List<LevelItemsData> levelItemsDataList;
 
 
     #region Injection
@@ -89,8 +92,29 @@ public class LevelView : MonoBehaviour
                 obj.transform.name = $"Grid_{x}_{y}";
             }
         }
+
+        foreach (var itemsData in levelItemsDataList)
+        {
+            for (int i = 0; i < itemsData.Count; i++)
+            {
+                AssignNextItemToRandomSlot(itemsData.ItemView);
+            }
+        }
     }
 #endif
+
+
+    public void AssignNextItemToRandomSlot(ItemView nextItem)
+    {
+        var randomGrid = gridViews[UnityEngine.Random.Range(0, gridViews.Count)];
+
+        var emptySlots = randomGrid.SlotListData.Where(slot => slot.ItemView == null).ToList();
+        if (emptySlots.Count == 0) return;
+
+        var randomEmptySlot = emptySlots[UnityEngine.Random.Range(0, emptySlots.Count)];
+
+        randomEmptySlot.ItemView = nextItem;
+    }
 
     public bool CheckForLevelEnd()
     {
@@ -117,4 +141,11 @@ public class LevelView : MonoBehaviour
 
         Destroy(gameObject);
     }
+}
+
+[Serializable]
+public class LevelItemsData
+{
+    public ItemView ItemView;
+    public int Count;
 }

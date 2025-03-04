@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1776888908196081403}
   - component: {fileID: 3994041710075382647}
   - component: {fileID: 3380452726376041860}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MilkBox
   m_TagString: ItemView
   m_Icon: {fileID: 0}
@@ -121,6 +121,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b3e18a67342f40b88b440a242a29b19, type: 3}
       propertyPath: m_Name
       value: MilkBox
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b3e18a67342f40b88b440a242a29b19, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

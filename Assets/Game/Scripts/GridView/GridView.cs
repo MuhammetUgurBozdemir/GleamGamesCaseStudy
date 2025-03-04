@@ -9,6 +9,7 @@ using Zenject;
 public class GridView : MonoBehaviour
 {
     [SerializeField] private List<SlotItemData> slotListData;
+    public List<SlotItemData> SlotListData => slotListData;
 
     #region Injection
 
@@ -110,7 +111,7 @@ public class GridView : MonoBehaviour
 
     private async UniTask DOCheckForLevelEnd()
     {
-        await UniTask.Delay(500);
+        await UniTask.Delay(1000);
         levelController.CheckForLevelEnd();
     }
 

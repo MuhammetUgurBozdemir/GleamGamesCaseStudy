@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8919979897637350435}
   - component: {fileID: 4599303989269284073}
   m_Layer: 6
-  m_Name: SodaBottle
+  m_Name: SodaBottle 5
   m_TagString: ItemView
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 5548283416942246313}
-  itemIndex: 2
+  itemIndex: 9
   initialColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &4599303989269284073
 BoxCollider:
@@ -130,6 +130,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 364111982436210763, guid: 7f41cfe7a20104446b5c16f901923513, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 27dec5e79a684464e90518a5bcba4e8a, type: 2}
     - target: {fileID: 919132149155446097, guid: 7f41cfe7a20104446b5c16f901923513, type: 3}
       propertyPath: m_Name
       value: SodaBottle

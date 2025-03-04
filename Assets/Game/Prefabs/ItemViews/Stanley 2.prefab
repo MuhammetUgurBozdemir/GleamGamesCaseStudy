@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3102224305934116000}
   - component: {fileID: 9114695771716216027}
   m_Layer: 6
-  m_Name: Stanley
+  m_Name: Stanley 2
   m_TagString: ItemView
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 1970435777643789756}
-  itemIndex: 11
+  itemIndex: 9
   initialColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &9114695771716216027
 BoxCollider:
@@ -133,7 +133,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 4d7a81bdcbb9b4f89a315c403b420bca, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 91cce0e59e9fe4800983a850c6effb0e, type: 2}
+      objectReference: {fileID: 2100000, guid: 1e1eb2308b7ee4bd490bb56420f6dfbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 4d7a81bdcbb9b4f89a315c403b420bca, type: 3}
       propertyPath: m_Name
       value: Stanley
